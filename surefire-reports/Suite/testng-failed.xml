@@ -3,38 +3,24 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="login.LoginTest">
+      <class name="alert.AlertTest">
         <methods>
           <include name="tearDown"/>
           <include name="setAllureEnvironment"/>
+          <include name="testSetInputInAlert"/>
           <include name="setUp"/>
-          <include name="testSuccessfulLogin"/>
+          <include name="testGetTextFromAlert"/>
+          <include name="testAcceptAlert"/>
         </methods>
-      </class> <!-- login.LoginTest -->
-      <class name="sentEmail.SentEmailTest">
+      </class> <!-- alert.AlertTest -->
+      <class name="iframe.FrameTest">
         <methods>
-          <include name="testSentEmail"/>
           <include name="tearDown"/>
+          <include name="testFrame"/>
           <include name="setAllureEnvironment"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- sentEmail.SentEmailTest -->
-      <class name="wait.Example1LoadingTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setAllureEnvironment"/>
-          <include name="testWaitExmaple1"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- wait.Example1LoadingTest -->
-      <class name="login.LoginTestUsingPropFile">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setAllureEnvironment"/>
-          <include name="setUp"/>
-          <include name="testSuccessfulLogin"/>
-        </methods>
-      </class> <!-- login.LoginTestUsingPropFile -->
+      </class> <!-- iframe.FrameTest -->
       <class name="geolocation.GeolocationTest">
         <methods>
           <include name="testGeolocation"/>
@@ -51,24 +37,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- uploadFile.UploadFileTest -->
-      <class name="wait.Example2LoadingTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setAllureEnvironment"/>
-          <include name="testWaitExmaple2"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- wait.Example2LoadingTest -->
-      <class name="alert.AlertTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setAllureEnvironment"/>
-          <include name="testSetInputInAlert"/>
-          <include name="setUp"/>
-          <include name="testGetTextFromAlert"/>
-          <include name="testAcceptAlert"/>
-        </methods>
-      </class> <!-- alert.AlertTest -->
       <class name="dropdown.DropDownTest">
         <methods>
           <include name="tearDown"/>
@@ -77,14 +45,22 @@
           <include name="testDropDown"/>
         </methods>
       </class> <!-- dropdown.DropDownTest -->
-      <class name="iframe.FrameTest">
+      <class name="login.LoginTestUsingPropFile">
         <methods>
           <include name="tearDown"/>
-          <include name="testFrame"/>
           <include name="setAllureEnvironment"/>
           <include name="setUp"/>
+          <include name="testSuccessfulLogin"/>
         </methods>
-      </class> <!-- iframe.FrameTest -->
+      </class> <!-- login.LoginTestUsingPropFile -->
+      <class name="wait.Example2LoadingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setAllureEnvironment"/>
+          <include name="testWaitExmaple2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- wait.Example2LoadingTest -->
       <class name="status.StatusCodeTest">
         <methods>
           <include name="tearDown"/>
@@ -93,6 +69,30 @@
           <include name="testStatusCodes"/>
         </methods>
       </class> <!-- status.StatusCodeTest -->
+      <class name="wait.Example1LoadingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setAllureEnvironment"/>
+          <include name="testWaitExmaple1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- wait.Example1LoadingTest -->
+      <class name="login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setAllureEnvironment"/>
+          <include name="setUp"/>
+          <include name="testSuccessfulLogin"/>
+        </methods>
+      </class> <!-- login.LoginTest -->
+      <class name="sentEmail.SentEmailTest">
+        <methods>
+          <include name="testSentEmail"/>
+          <include name="tearDown"/>
+          <include name="setAllureEnvironment"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sentEmail.SentEmailTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
