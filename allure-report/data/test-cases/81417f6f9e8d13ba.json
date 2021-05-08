@@ -1,0 +1,148 @@
+{
+  "uid" : "81417f6f9e8d13ba",
+  "name" : "testSentEmail",
+  "fullName" : "sentEmail.SentEmailTest.testSentEmail",
+  "historyId" : "54de54b0f5b313990fb376cba84c5e3b",
+  "time" : {
+    "start" : 1610482541368,
+    "stop" : 1610482543735,
+    "duration" : 2367
+  },
+  "description" : "Send Email Test",
+  "descriptionHtml" : "<p>Send Email Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610482531392,
+      "stop" : 1610482541362,
+      "duration" : 9970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610482402809,
+      "stop" : 1610482403010,
+      "duration" : 201
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Send Email Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step5",
+      "time" : {
+        "start" : 1610482541368,
+        "stop" : 1610482543733,
+        "duration" : 2365
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610482543736,
+      "stop" : 1610482544442,
+      "duration" : 706
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sentEmail.SentEmailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sentEmail.SentEmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSentEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sentEmail.SentEmailTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8048@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "feature5: Send Email Test"
+  }, {
+    "name" : "epic",
+    "value" : "EP005"
+  }, {
+    "name" : "story",
+    "value" : "story5"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81417f6f9e8d13ba.json",
+  "parameterValues" : [ ]
+}

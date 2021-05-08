@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo google Search",
+  "data" : {
+    "failed" : 2,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 12,
+    "unknown" : 0,
+    "total" : 17
+  }
+} ]

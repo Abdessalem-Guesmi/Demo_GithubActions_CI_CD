@@ -1,0 +1,347 @@
+{
+  "ecab9e80574e1b82ce5eb6ce29ad7523" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d228c679928c4c0",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1d228c679928c4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483300595,
+        "stop" : 1610483301307,
+        "duration" : 712
+      }
+    } ]
+  },
+  "e682935853116a73ea8e1499589013c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c72e93edd85db9db",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c72e93edd85db9db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483291851,
+        "stop" : 1610483292781,
+        "duration" : 930
+      }
+    } ]
+  },
+  "add6a1aff3d9c4928c78090ec9842edb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e3920faffbaa069",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6e3920faffbaa069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483325041,
+        "stop" : 1610483325943,
+        "duration" : 902
+      }
+    } ]
+  },
+  "88f75adcbda8ff54932ef39f21b4fc81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8618a9317ab7a185",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8618a9317ab7a185",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483166897,
+        "stop" : 1610483173285,
+        "duration" : 6388
+      }
+    } ]
+  },
+  "a3d6732278b0d4f6c3b0c0f7d68e26bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffde225007a1cba6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ffde225007a1cba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483210673,
+        "stop" : 1610483211633,
+        "duration" : 960
+      }
+    } ]
+  },
+  "118ad0d48af633b1a74e5e059770ade9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b86b39d86cc85a3f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b86b39d86cc85a3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483352978,
+        "stop" : 1610483355409,
+        "duration" : 2431
+      }
+    } ]
+  },
+  "a425b37bd3a7c9872372c78179108dfb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98e1b50aec449990",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/98e1b50aec449990",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"521\"}\n  (Session info: chrome=87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 057f4a19eb1d696822987b9d6e30d140\n*** Element info: {Using=link text, value=521}",
+      "time" : {
+        "start" : 1610483247668,
+        "stop" : 1610483278290,
+        "duration" : 30622
+      }
+    } ]
+  },
+  "4c63c1a9ed13338dffd66fb37a9a27f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1843d8201dbc397d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1843d8201dbc397d",
+      "status" : "failed",
+      "statusDetails" : "text is not correct did not expect to find [true] but found [false]",
+      "time" : {
+        "start" : 1610483366454,
+        "stop" : 1610483369560,
+        "duration" : 3106
+      }
+    } ]
+  },
+  "1abf97a80dd0a1dab09d6c7bcc5b0d31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c4b0f6c1cc5f76b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6c4b0f6c1cc5f76b",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#mceu_12 button\"}\n  (Session info: chrome=87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6bf55a09c0607b0a946df005370a27a8\n*** Element info: {Using=css selector, value=#mceu_12 button}",
+      "time" : {
+        "start" : 1610483033368,
+        "stop" : 1610483126950,
+        "duration" : 93582
+      }
+    } ]
+  },
+  "3a6eda4f0a8009415da3d8f2a61979f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9678944a9a824997",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9678944a9a824997",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: File not found : D:\\TasksTimer WKS\\SeleniumTestNgDemoAllureReport/FileUpload\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b69bfb832eaafc3e9f07b40f162d1d2f",
+      "time" : {
+        "start" : 1610483138912,
+        "stop" : 1610483143210,
+        "duration" : 4298
+      }
+    } ]
+  },
+  "ee5e1ef2d328944f6075e28c70536943" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f60752316ec8d1f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f60752316ec8d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483337222,
+        "stop" : 1610483338629,
+        "duration" : 1407
+      }
+    } ]
+  },
+  "cd66b59e8771c3d2b961806f7c29cd80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b62e71a225b711f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9b62e71a225b711f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483193539,
+        "stop" : 1610483194534,
+        "duration" : 995
+      }
+    } ]
+  },
+  "cbb10230a9f804a3b3b1e6b09bb3ec2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9be76cb0e130a6e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e9be76cb0e130a6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483377918,
+        "stop" : 1610483384539,
+        "duration" : 6621
+      }
+    } ]
+  },
+  "3d8550a07ecf6478c0d6f13bf0feed9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97093c31400d1ef7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/97093c31400d1ef7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483183232,
+        "stop" : 1610483184301,
+        "duration" : 1069
+      }
+    } ]
+  },
+  "de027a50201ddd675033f919eec9c359" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ed342e849eb76e9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1ed342e849eb76e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483225369,
+        "stop" : 1610483226495,
+        "duration" : 1126
+      }
+    } ]
+  },
+  "54f0b83e25b9afe26fa2e8dc93aeeef3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f19c8e3abb6ebb5f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f19c8e3abb6ebb5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610483314181,
+        "stop" : 1610483315072,
+        "duration" : 891
+      }
+    } ]
+  },
+  "54de54b0f5b313990fb376cba84c5e3b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4761495b585eeccd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4761495b585eeccd",
+      "status" : "failed",
+      "statusDetails" : "message is incorrect expected [Your e-mail's been sent!] but found [Forgot Password\nE-mail\nRetrieve password]",
+      "time" : {
+        "start" : 1610483154931,
+        "stop" : 1610483156056,
+        "duration" : 1125
+      }
+    } ]
+  }
+}

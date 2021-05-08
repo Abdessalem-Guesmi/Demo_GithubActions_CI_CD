@@ -1,0 +1,161 @@
+{
+  "uid" : "c72e93edd85db9db",
+  "name" : "testDropDown",
+  "fullName" : "dropdown.DropDownTest.testDropDown",
+  "historyId" : "e682935853116a73ea8e1499589013c3",
+  "time" : {
+    "start" : 1610483291851,
+    "stop" : 1610483292781,
+    "duration" : 930
+  },
+  "description" : "DropDown Test",
+  "descriptionHtml" : "<p>DropDown Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610483278915,
+      "stop" : 1610483291821,
+      "duration" : 12906
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610483012505,
+      "stop" : 1610483012671,
+      "duration" : 166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "DropDown Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step7",
+      "time" : {
+        "start" : 1610483291852,
+        "stop" : 1610483292780,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610483292783,
+      "stop" : 1610483293447,
+      "duration" : 664
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "dropdown.DropDownTest"
+  }, {
+    "name" : "testClass",
+    "value" : "dropdown.DropDownTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDropDown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "dropdown.DropDownTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11904@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "story7"
+  }, {
+    "name" : "epic",
+    "value" : "EP007"
+  }, {
+    "name" : "feature",
+    "value" : "feature7: DropDownTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "focus-case-1637103",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "17c081c3a5623416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610482674826,
+        "stop" : 1610482675689,
+        "duration" : 863
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c72e93edd85db9db.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "625a79c108c79b65",
+  "name" : "testGeolocation",
+  "fullName" : "geolocation.GeolocationTest.testGeolocation",
+  "historyId" : "ee5e1ef2d328944f6075e28c70536943",
+  "time" : {
+    "start" : 1610482720946,
+    "stop" : 1610482723287,
+    "duration" : 2341
+  },
+  "description" : "Geolocation Test",
+  "descriptionHtml" : "<p>Geolocation Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610482711982,
+      "stop" : 1610482720935,
+      "duration" : 8953
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610482402809,
+      "stop" : 1610482403010,
+      "duration" : 201
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Geolocation Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step2",
+      "time" : {
+        "start" : 1610482720947,
+        "stop" : 1610482723286,
+        "duration" : 2339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610482723288,
+      "stop" : 1610482724003,
+      "duration" : 715
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "geolocation.GeolocationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "geolocation.GeolocationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGeolocation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "geolocation.GeolocationTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8048@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "story2"
+  }, {
+    "name" : "feature",
+    "value" : "feature2: Geolocation Test"
+  }, {
+    "name" : "epic",
+    "value" : "EP002"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "focus-case-1637103",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "625a79c108c79b65.json",
+  "parameterValues" : [ ]
+}

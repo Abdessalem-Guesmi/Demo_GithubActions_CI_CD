@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo google Search",
+  "data" : {
+    "Product defects" : 2,
+    "Test defects" : 3
+  }
+} ]

@@ -1,0 +1,124 @@
+{
+  "uid" : "6e3920faffbaa069",
+  "name" : "testSetInputInAlert",
+  "fullName" : "alert.AlertTest.testSetInputInAlert",
+  "historyId" : "add6a1aff3d9c4928c78090ec9842edb",
+  "time" : {
+    "start" : 1610483325041,
+    "stop" : 1610483325943,
+    "duration" : 902
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610483315886,
+      "stop" : 1610483325025,
+      "duration" : 9139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610483012505,
+      "stop" : 1610483012671,
+      "duration" : 166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610483325945,
+      "stop" : 1610483326631,
+      "duration" : 686
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "alert.AlertTest"
+  }, {
+    "name" : "testClass",
+    "value" : "alert.AlertTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSetInputInAlert"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "alert.AlertTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11904@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "feature1: AlertTest"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2321826d8406a328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610482710439,
+        "stop" : 1610482711262,
+        "duration" : 823
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e3920faffbaa069.json",
+  "parameterValues" : [ ]
+}

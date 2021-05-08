@@ -1,0 +1,148 @@
+{
+  "uid" : "6c0f4277472699e2",
+  "name" : "testWaitExmaple1",
+  "fullName" : "wait.Example1LoadingTest.testWaitExmaple1",
+  "historyId" : "cbb10230a9f804a3b3b1e6b09bb3ec2a",
+  "time" : {
+    "start" : 1610482788982,
+    "stop" : 1610482796845,
+    "duration" : 7863
+  },
+  "description" : "Example1 -->Loading Test",
+  "descriptionHtml" : "<p>Example1 --&gt;Loading Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610482776446,
+      "stop" : 1610482788968,
+      "duration" : 12522
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610482402809,
+      "stop" : 1610482403010,
+      "duration" : 201
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Example1 -->Loading Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step8",
+      "time" : {
+        "start" : 1610482788983,
+        "stop" : 1610482796844,
+        "duration" : 7861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610482796846,
+      "stop" : 1610482798065,
+      "duration" : 1219
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "wait.Example1LoadingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "wait.Example1LoadingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testWaitExmaple1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "wait.Example1LoadingTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8048@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "EP008"
+  }, {
+    "name" : "feature",
+    "value" : "feature8: LoadingTest"
+  }, {
+    "name" : "story",
+    "value" : "story8"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c0f4277472699e2.json",
+  "parameterValues" : [ ]
+}

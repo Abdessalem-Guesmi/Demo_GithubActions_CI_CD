@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#mceu_12 button\"}\n  (Session info: chrome=87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6bf55a09c0607b0a946df005370a27a8\n*** Element info: {Using=css selector, value=#mceu_12 button}",
+      "children" : [ {
+        "name" : "testFrame",
+        "uid" : "6c4b0f6c1cc5f76b",
+        "parentUid" : "c5ba7abe962c38bcfe9cf6df805ead42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610483033368,
+          "stop" : 1610483126950,
+          "duration" : 93582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5ba7abe962c38bcfe9cf6df805ead42"
+    }, {
+      "name" : "invalid argument: File not found : D:\\TasksTimer WKS\\SeleniumTestNgDemoAllureReport/FileUpload\n  (Session info: chrome=87.0.4280.141)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b69bfb832eaafc3e9f07b40f162d1d2f",
+      "children" : [ {
+        "name" : "testUploadFile",
+        "uid" : "9678944a9a824997",
+        "parentUid" : "023504945237db6c55c522290cd94c18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610483138912,
+          "stop" : 1610483143210,
+          "duration" : 4298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "023504945237db6c55c522290cd94c18"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"521\"}\n  (Session info: chrome=87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ABDOU-PC', ip: '169.254.158.117', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Abdou\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 057f4a19eb1d696822987b9d6e30d140\n*** Element info: {Using=link text, value=521}",
+      "children" : [ {
+        "name" : "testStatusCodes",
+        "uid" : "98e1b50aec449990",
+        "parentUid" : "9788516d90738ff65d4ae4be8b8bd67d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610483247668,
+          "stop" : 1610483278290,
+          "duration" : 30622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "521" ]
+      } ],
+      "uid" : "9788516d90738ff65d4ae4be8b8bd67d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "message is incorrect expected [Your e-mail's been sent!] but found [Forgot Password\nE-mail\nRetrieve password]",
+      "children" : [ {
+        "name" : "testSentEmail",
+        "uid" : "4761495b585eeccd",
+        "parentUid" : "6379d7983406d84d352571f44015ebf1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610483154931,
+          "stop" : 1610483156056,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6379d7983406d84d352571f44015ebf1"
+    }, {
+      "name" : "text is not correct did not expect to find [true] but found [false]",
+      "children" : [ {
+        "name" : "testSuccessfulLogin",
+        "uid" : "1843d8201dbc397d",
+        "parentUid" : "2814587959abdfca97c0814ba128e986",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610483366454,
+          "stop" : 1610483369560,
+          "duration" : 3106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "kimsmith", "SuperSecretPassword" ]
+      } ],
+      "uid" : "2814587959abdfca97c0814ba128e986"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

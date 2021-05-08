@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="iframe.FrameTest"/>
+      <class name="sentEmail.SentEmailTest"/>
+      <class name="status.StatusCodeTest"/>
+      <class name="alert.AlertTest"/>
+      <class name="login.LoginTest"/>
+      <class name="base.BaseTests"/>
+      <class name="uploadFile.UploadFileTest"/>
+      <class name="login.LoginTestUsingPropFile"/>
+      <class name="wait.Example2LoadingTest"/>
+      <class name="dropdown.DropDownTest"/>
+      <class name="geolocation.GeolocationTest"/>
+      <class name="wait.Example1LoadingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,171 @@
+[ {
+  "uid" : "8618a9317ab7a185",
+  "name" : "testWaitExmaple2",
+  "time" : {
+    "start" : 1610483166897,
+    "stop" : 1610483173285,
+    "duration" : 6388
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9678944a9a824997",
+  "name" : "testUploadFile",
+  "time" : {
+    "start" : 1610483138912,
+    "stop" : 1610483143210,
+    "duration" : 4298
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ffde225007a1cba6",
+  "name" : "testStatusCodes",
+  "time" : {
+    "start" : 1610483210673,
+    "stop" : 1610483211633,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b62e71a225b711f",
+  "name" : "testStatusCodes",
+  "time" : {
+    "start" : 1610483193539,
+    "stop" : 1610483194534,
+    "duration" : 995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9be76cb0e130a6e",
+  "name" : "testWaitExmaple1",
+  "time" : {
+    "start" : 1610483377918,
+    "stop" : 1610483384539,
+    "duration" : 6621
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c4b0f6c1cc5f76b",
+  "name" : "testFrame",
+  "time" : {
+    "start" : 1610483033368,
+    "stop" : 1610483126950,
+    "duration" : 93582
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "1ed342e849eb76e9",
+  "name" : "testStatusCodes",
+  "time" : {
+    "start" : 1610483225369,
+    "stop" : 1610483226495,
+    "duration" : 1126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d228c679928c4c0",
+  "name" : "testAcceptAlert",
+  "time" : {
+    "start" : 1610483300595,
+    "stop" : 1610483301307,
+    "duration" : 712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f60752316ec8d1f",
+  "name" : "testGeolocation",
+  "time" : {
+    "start" : 1610483337222,
+    "stop" : 1610483338629,
+    "duration" : 1407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97093c31400d1ef7",
+  "name" : "testStatusCodes",
+  "time" : {
+    "start" : 1610483183232,
+    "stop" : 1610483184301,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b86b39d86cc85a3f",
+  "name" : "testSuccessfulLogin",
+  "time" : {
+    "start" : 1610483352978,
+    "stop" : 1610483355409,
+    "duration" : 2431
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e3920faffbaa069",
+  "name" : "testSetInputInAlert",
+  "time" : {
+    "start" : 1610483325041,
+    "stop" : 1610483325943,
+    "duration" : 902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1843d8201dbc397d",
+  "name" : "testSuccessfulLogin",
+  "time" : {
+    "start" : 1610483366454,
+    "stop" : 1610483369560,
+    "duration" : 3106
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4761495b585eeccd",
+  "name" : "testSentEmail",
+  "time" : {
+    "start" : 1610483154931,
+    "stop" : 1610483156056,
+    "duration" : 1125
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "98e1b50aec449990",
+  "name" : "testStatusCodes",
+  "time" : {
+    "start" : 1610483247668,
+    "stop" : 1610483278290,
+    "duration" : 30622
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c72e93edd85db9db",
+  "name" : "testDropDown",
+  "time" : {
+    "start" : 1610483291851,
+    "stop" : 1610483292781,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f19c8e3abb6ebb5f",
+  "name" : "testGetTextFromAlert",
+  "time" : {
+    "start" : 1610483314181,
+    "stop" : 1610483315072,
+    "duration" : 891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

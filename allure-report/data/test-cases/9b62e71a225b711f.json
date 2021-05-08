@@ -1,0 +1,164 @@
+{
+  "uid" : "9b62e71a225b711f",
+  "name" : "testStatusCodes",
+  "fullName" : "status.StatusCodeTest.testStatusCodes",
+  "historyId" : "cd66b59e8771c3d2b961806f7c29cd80",
+  "time" : {
+    "start" : 1610483193539,
+    "stop" : 1610483194534,
+    "duration" : 995
+  },
+  "description" : "Status Code Test",
+  "descriptionHtml" : "<p>Status Code Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1610483185036,
+      "stop" : 1610483193533,
+      "duration" : 8497
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setAllureEnvironment",
+    "time" : {
+      "start" : 1610483012505,
+      "stop" : 1610483012671,
+      "duration" : 166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Status Code Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step6",
+      "time" : {
+        "start" : 1610483193539,
+        "stop" : 1610483194533,
+        "duration" : 994
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "code",
+        "value" : "301"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1610483194536,
+      "stop" : 1610483195418,
+      "duration" : 882
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "status.StatusCodeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "status.StatusCodeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testStatusCodes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "status.StatusCodeTest"
+  }, {
+    "name" : "host",
+    "value" : "Abdou-PC"
+  }, {
+    "name" : "thread",
+    "value" : "11904@Abdou-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "story6"
+  }, {
+    "name" : "epic",
+    "value" : "EP006"
+  }, {
+    "name" : "feature",
+    "value" : "feature6: Status Code Test"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "301"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1daef0ea5c4ba539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610482593296,
+        "stop" : 1610482595032,
+        "duration" : 1736
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b62e71a225b711f.json",
+  "parameterValues" : [ "301" ]
+}

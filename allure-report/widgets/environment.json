@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "Abdessalem-Guesmi" ],
+  "name" : "Tester"
+}, {
+  "values" : [ "70.0.3538.77" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "https://google.com" ],
+  "name" : "URL"
+}, {
+  "values" : [ "Window 7" ],
+  "name" : "System"
+} ]
