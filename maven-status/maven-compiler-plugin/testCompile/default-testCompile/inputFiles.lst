@@ -1,0 +1,13 @@
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/wait/Example2LoadingTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/base/BaseTests.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/listener/AllureListener.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/wait/Example1LoadingTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/iframe/FrameTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/uploadFile/UploadFileTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/alert/AlertTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/sentEmail/SentEmailTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/status/StatusCodeTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/login/LoginTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/login/LoginTestUsingPropFile.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/geolocation/GeolocationTest.java
+/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD/src/test/java/dropdown/DropDownTest.java

@@ -1,0 +1,13 @@
+login/LoginTest.class
+login/LoginTestUsingPropFile.class
+status/StatusCodeTest.class
+wait/Example1LoadingTest.class
+iframe/FrameTest.class
+dropdown/DropDownTest.class
+sentEmail/SentEmailTest.class
+alert/AlertTest.class
+uploadFile/UploadFileTest.class
+listener/AllureListener.class
+wait/Example2LoadingTest.class
+base/BaseTests.class
+geolocation/GeolocationTest.class

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.73" tests="54" errors="0" skipped="43" failures="11">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="testng.dtd.http" value="true"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/runner/work/Demo_GithubActions_CI_CD/Demo_GithubActions_CI_CD"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/apache-maven-3.8.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/apache-maven-3.8.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-1046-azure"/>
+    <property name="library.jansi.path" value="/usr/share/apache-maven-3.8.1/lib/jansi-native"/>
+    <property name="user.home" value="/home/runner"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="runner"/>
+    <property name="java.class.path" value="/usr/share/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtestng.dtd.http=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/resources.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/rt.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jsse.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jce.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/charsets.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jfr.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/usr/share/apache-maven-3.8.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="setUp" classname="iframe.FrameTest" time="4.505">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55f6d0482e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55f6d0482e89 <unknown>
+
+]]></failure>
+    <system-out><![CDATA[Allure environment data saved.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 08, 2021 11:17:21 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15173
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testFrame" classname="iframe.FrameTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55f6d0482e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="iframe.FrameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="uploadFile.UploadFileTest" time="0.164">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55b5211ece89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55b5211ece89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15025
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testUploadFile" classname="uploadFile.UploadFileTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55b5211ece89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="uploadFile.UploadFileTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="sentEmail.SentEmailTest" time="0.265">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x5621e9850e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x5621e9850e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 8349
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testSentEmail" classname="sentEmail.SentEmailTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x5621e9850e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="sentEmail.SentEmailTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="login.LoginTestUsingPropFile" time="0.19">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56165ac97e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x56165ac97e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18935
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="login.LoginTestUsingPropFile" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56165ac97e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="login.LoginTestUsingPropFile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="status.StatusCodeTest" time="0.208">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x56238e284e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 1690
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStatusCodes" classname="status.StatusCodeTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testStatusCodes" classname="status.StatusCodeTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testStatusCodes" classname="status.StatusCodeTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testStatusCodes" classname="status.StatusCodeTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testStatusCodes" classname="status.StatusCodeTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x56238e284e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="status.StatusCodeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="wait.Example2LoadingTest" time="0.191">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55d0cd4ffe89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55d0cd4ffe89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16762
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testWaitExmaple2" classname="wait.Example2LoadingTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55d0cd4ffe89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="wait.Example2LoadingTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="alert.AlertTest" time="0.191">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a3a80d7e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55a3a80d7e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 22503
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="alert.AlertTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="alert.AlertTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAcceptAlert" classname="alert.AlertTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a3a80d7e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="alert.AlertTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="alert.AlertTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="alert.AlertTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetTextFromAlert" classname="alert.AlertTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a3a80d7e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testSetInputInAlert" classname="alert.AlertTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55a3a80d7e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="setUp" classname="dropdown.DropDownTest" time="0.144">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x559ebfb86e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x559ebfb86e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 30474
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testDropDown" classname="dropdown.DropDownTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x559ebfb86e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="dropdown.DropDownTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="login.LoginTest" time="0.144">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55861bb41e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55861bb41e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 26543
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="login.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="login.LoginTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55861bb41e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="testSuccessfulLogin" classname="login.LoginTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55861bb41e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="login.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="login.LoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="geolocation.GeolocationTest" time="0.142">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55b3f29e5e89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x55b3f29e5e89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10532
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testGeolocation" classname="geolocation.GeolocationTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x55b3f29e5e89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="geolocation.GeolocationTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="wait.Example1LoadingTest" time="0.146">
+    <failure message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x558c36b7ee89 &lt;unknown&gt;&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited abnormally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az292-713', ip: '10.1.0.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-1046-azure', java.version: '1.8.0_292'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x558c36b7ee89 <unknown>
+
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28840
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testWaitExmaple1" classname="wait.Example1LoadingTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: exited abnormally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;fv-az292-713&apos;, ip: &apos;10.1.0.147&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-1046-azure&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: #0 0x558c36b7ee89 &lt;unknown&gt;&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="wait.Example1LoadingTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
